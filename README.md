@@ -22,7 +22,7 @@ POSTGRESQL_USER=username
 POSTGRESQL_HOST=localhost
 POSTGRESQL_PASSWORD=yourpassword
 ```
-`4`
+`4.`
 Create database tables.
 
 `5.`
