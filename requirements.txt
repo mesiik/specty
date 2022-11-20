@@ -1,0 +1,3 @@
+git+https://github.com/rapptz/discord.py
+asyncpg
+aiohttp
