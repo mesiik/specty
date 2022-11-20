@@ -24,5 +24,6 @@ POSTGRESQL_PASSWORD=yourpassword
 ```
 `4`
 Create database tables.
+
 `5.`
 Run using `python3 -B -m specty`
