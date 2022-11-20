@@ -115,6 +115,8 @@ class LastfmCommand(Command):
         if data is None:
             return await ctx.error("this last.fm account is invalid")
 
+        username = data["user"]["username"]
+
         _data = await self.bot.pool.fetchrow(
             "SELECT * FROM lastfm WHERE user_id = $1", ctx.author.id
         )
